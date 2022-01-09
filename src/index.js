@@ -12,4 +12,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 
 const container = document.getElementById('root') 
-ReactDom.render(<Card />, container)
+ReactDom.render(<Card 
+
+              usuario="Nombre de Usuario "
+              datos="Nombre, Apellido, Ciudad, Escuela"
+              avatar="https://res.cloudinary.com/dhbn0fate/image/upload/v1639032523/fanor/fanor.jpg"
+              leftColor="#A74CF2"
+              rightColor="#617BFB"
+
+/>, container)
