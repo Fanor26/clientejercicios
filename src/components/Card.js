@@ -5,8 +5,22 @@ import './styles/Card.css'
 
 
 class Card extends React.Component {
-    /*   background: url('../../images/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB);*/
+    
+    constructor(props){
+        super(props)
+        this.state = {
+    image:"https://res.cloudinary.com/devatchannel/image/upload/v1602752402/avatar/avatar_cugq40.png"
+    }
+    }
+    componentDidMount(){
+        setTimeout(() => {
 
+            this.setState({
+            image: "https://res.cloudinary.com/dhbn0fate/image/upload/v1641719721/124578_yayxba.jpg"
+        })
+        }, 5000)
+
+    }
     render(){
         const  { usuario, datos, avatar, leftColor, rightColor } = this.props
         return (
@@ -20,7 +34,7 @@ class Card extends React.Component {
             <div className="card-body">
                 <div className="row center">
                     <div className="col-6">
-                    <img src={avatar} className="avatr" />
+                    <img src={this.state.image} className="avatr" />
                     </div>
                 <div className="col-6 Fitness-Card-Info">
                 <h1>{usuario}</h1> 

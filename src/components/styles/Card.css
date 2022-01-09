@@ -19,6 +19,7 @@
 .Fitness-Card-Info h1{
     font-size: 23px;
     color: white;
+    cursor: pointer;
 }
 .Fitness-Card-Info p{
     font-size: 11px;
