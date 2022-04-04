@@ -1,4 +1,4 @@
-
+import React from 'react'
 import './App.css';
 
 function App() {
@@ -7,7 +7,10 @@ function App() {
    
        
         <p>
-          Bienvenido a React Fanor Choque Aguirre
+          fanor choque Aguirre 2022
+          {/*npm remove react-scripts
+npm install react-scripts@4.0.3*/ }
+          
         </p>
       
     </div>
