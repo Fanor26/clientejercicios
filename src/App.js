@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Bienvenido a React Fanor
+          Bienvenido a React Fanor Choque
         </p>
         <a
           className="App-link"
